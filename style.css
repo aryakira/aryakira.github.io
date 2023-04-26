@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #190a27;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    background: #190a27;
+}
+
+.text-center {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-center2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-home {
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: white;
+}
+
+.btn-solid {
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: rgb(19, 204, 142);
+}
+
+.btn-s {
+    border: none;
+    font-size: 17px;
+    background: none;
+    color: rgb(19, 204, 142);
+}
+
+.btn-border {
+    border: none;
+    background: none;
+}
+
+
+.btn-solid:focus {
+    margin-right: 50%;
+    border: none;
+    outline: none;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: rgb(187, 135, 37);
+}
+
+.title2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: white;
+}
+
+.title3 {
+    font-size: 35px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    color: rgb(187, 135, 37);
+}
+
+.description {
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.description2 {
+    font-size: 20px;
+    padding-top: 2%;
+    color: rgb(4, 112, 53);
+    background: none;
+    border: none;
+}
+
+.description3 {
+    font-size: 20px;
+    color: rgb(214, 209, 209);
+}
+
+.description4 {
+    padding: 0;
+    font-size: 20px;
+    color: rgb(19, 204, 142);
+    background: none;
+    border: none;
+}
+
+.img {
+    margin-left: 43%;
+    margin-top: 5;
+    width: 100px;
+    height: 125px;
+}

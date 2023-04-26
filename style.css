@@ -72,6 +72,7 @@ body {
 }
 
 .parent {
+    padding: 0.7%;
     display: flex;
     justify-content: center;
     align-items: center;

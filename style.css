@@ -132,3 +132,37 @@ body {
     width: 100px;
     height: 125px;
 }
+
+@media screen and (min-width: 400px) {
+    .container {
+        background-color: #190a27;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-center {
+        font-size: 30px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .img {
+        margin-left: 30%;
+        margin-top: 5;
+        width: 100px;
+        height: 125px;
+    }
+
+    .title3 {
+        font-size: 35px;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        color: rgb(187, 135, 37);
+    }
+}

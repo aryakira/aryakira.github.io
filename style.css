@@ -133,7 +133,7 @@ body {
     height: 125px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 350px) {
     .container {
         background-color: #190a27;
     }
@@ -148,7 +148,7 @@ body {
 
     .text-center {
         font-size: 30px;
-        padding: 12px;
+        padding: 4px;
         text-align: center;
     }
 

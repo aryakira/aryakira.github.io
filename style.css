@@ -133,7 +133,8 @@ body {
     height: 125px;
 }
 
-@media screen and (min-width: 350px) {
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
     .container {
         background-color: #190a27;
     }

@@ -137,6 +137,7 @@ body {
 @media screen and (min-width: 350px) and (max-width: 1000px) {
     .container {
         background-color: #190a27;
+        padding-top: 3%;
     }
     
     .wrapper {

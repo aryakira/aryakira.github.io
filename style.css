@@ -134,7 +134,7 @@ body {
 }
 
 
-@media screen and (min-width: 350px) and (max-width: 1000px) {
+@media screen and (min-width: 350px) and (max-width: 2000px) {
     .container {
         background-color: #190a27;
         padding-top: 3%;

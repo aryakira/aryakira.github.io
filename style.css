@@ -198,6 +198,7 @@ body {
         width: 1080px;
         height: auto;
         position: relative;
+        margin-left: 66%;
         margin-top: 120px;
     }
 
@@ -212,5 +213,14 @@ body {
         margin-top: -90px;
         text-align: center;
         color: white;
+    }
+
+    .btn-s {
+        text-align: center;
+        margin-left: 35%;
+        border: none;
+        font-size: 17px;
+        background: none;
+        color: rgb(19, 204, 142);
     }
 }

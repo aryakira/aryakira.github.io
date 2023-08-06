@@ -164,6 +164,43 @@ body {
     color: white;
 }
 
+.gambar-majalah {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s ease; /* Efek perpindahan gambar yang halus */
+  }
+  
+  .gambar {
+    width: 50%; /* Lebar per gambar dalam gambar-majalah */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .teks-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .teks-gambar {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 14px;
+    margin: 0 5px;
+  }  
+  
+  
+  
+  
+  
+  
+  
+
 
 
 @media screen and (min-width: 350px) and (max-width: 2000px) {
